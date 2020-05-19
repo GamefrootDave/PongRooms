@@ -1,0 +1,82 @@
+{
+	"name": "Level 1",
+	"color": {
+		"r": 40,
+		"g": 46,
+		"b": 87,
+		"a": 1
+	},
+	"loader": {},
+	"systems": {},
+	"gameObjects": [
+		{
+			"type": "text",
+			"id": "1",
+			"x": 475,
+			"y": 135,
+			"textAlignment": "center",
+			"textColor": "#fee761ff",
+			"textFontFamily": "cursive",
+			"textLineHeight": 1,
+			"textLineWidth": 900,
+			"textSize": 24,
+			"textText": "Room name goes here | 1/2 players | 👉 JOIN 👈\n\nAnother cool room name | 1/2 players | 👉 JOIN 👈\n\nEpic room | 1/2 players | 👉 JOIN 👈\n\nRoom name goes here | 1/2 players | 👉 JOIN 👈",
+			"textWeight": "bold",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"RoomListText": {
+					"server list button": "null",
+					"textfield": "null"
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "text",
+			"id": "2",
+			"x": 461,
+			"y": 59,
+			"textAlignment": "center",
+			"textColor": "#ffffffff",
+			"textFontFamily": "cursive",
+			"textLineHeight": 1,
+			"textLineWidth": 512,
+			"textSize": 48,
+			"textText": "Multiplayer Pong!",
+			"textWeight": "bold",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "text",
+			"id": "3",
+			"x": 482,
+			"y": 449,
+			"textAlignment": "center",
+			"textColor": "#ffffffff",
+			"textFontFamily": "cursive",
+			"textLineHeight": 1,
+			"textLineWidth": 512,
+			"textSize": 30,
+			"textText": "HOST A GAME",
+			"textWeight": "bold",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"UiStatusText": {
+					"rectangle": "undefined"
+				}
+			},
+			"plugins": {}
+		}
+	],
+	"definitions": [],
+	"assets": []
+}

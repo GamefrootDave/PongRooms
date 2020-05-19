@@ -1,0 +1,358 @@
+{
+	"name": "Level 2",
+	"color": {
+		"r": 255,
+		"g": 255,
+		"b": 255,
+		"a": 1
+	},
+	"loader": {},
+	"systems": {},
+	"gameObjects": [
+		{
+			"type": "static-image",
+			"x": 0,
+			"y": 0,
+			"id": "205",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 480,
+			"anchorPointY": 270,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							8
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 0,
+					"y": 0,
+					"width": 960,
+					"height": 540
+				},
+				"Bg1": {}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "static-image",
+			"x": 134.8528137423857,
+			"y": 225.14213562373095,
+			"id": "206",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 15,
+			"anchorPointY": 47,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							9
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					},
+					"on": {
+						"cells": [
+							1,
+							3
+						],
+						"loop": true,
+						"play": false,
+						"speed": 0.1
+					},
+					"off": {
+						"cells": [
+							1,
+							2
+						],
+						"loop": true,
+						"play": false,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 7,
+					"y": 9,
+					"width": 14,
+					"height": 86
+				},
+				"Paddle": {
+					"I am the host": false
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "static-image",
+			"x": 800.1471862576143,
+			"y": 229,
+			"id": "207",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 15,
+			"anchorPointY": 47,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							9
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					},
+					"on": {
+						"cells": [
+							1,
+							3
+						],
+						"loop": true,
+						"play": false,
+						"speed": 0.1
+					},
+					"off": {
+						"cells": [
+							1,
+							2
+						],
+						"loop": true,
+						"play": false,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 7,
+					"y": 9,
+					"width": 14,
+					"height": 86
+				},
+				"Paddle2": {
+					"I am the client": false
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "static-image",
+			"x": -155,
+			"y": -281,
+			"id": "208",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 121,
+			"anchorPointY": 134,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							12,
+							1,
+							13,
+							1,
+							14,
+							1,
+							15,
+							1,
+							16,
+							1,
+							17,
+							1,
+							1,
+							1,
+							11,
+							1,
+							10
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 0,
+					"y": 0,
+					"width": 242,
+					"height": 268
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "static-image",
+			"x": 92,
+			"y": -197,
+			"id": "209",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 45.5,
+			"anchorPointY": 45.5,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							4,
+							1,
+							5,
+							1,
+							6,
+							1,
+							7
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 0,
+					"y": 0,
+					"width": 91,
+					"height": 91
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "static-image",
+			"x": 487,
+			"y": 248,
+			"id": "210",
+			"scaleX": 1,
+			"scaleY": 1,
+			"rotation": 0,
+			"imageId": 1,
+			"anchorPointX": 17.5,
+			"anchorPointY": 17.5,
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"TextureAnimation": {
+					"idle": {
+						"cells": [
+							1,
+							0
+						],
+						"loop": true,
+						"play": true,
+						"speed": 0.1
+					}
+				},
+				"box": {
+					"x": 0,
+					"y": 0,
+					"width": 35,
+					"height": 35
+				},
+				"Ball": {
+					"I am the host": false
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "text",
+			"id": "10",
+			"x": 479,
+			"y": 463,
+			"textAlignment": "center",
+			"textColor": "#ffffffff",
+			"textFontFamily": "cursive",
+			"textLineHeight": 1,
+			"textLineWidth": 626,
+			"textSize": 30,
+			"textText": "Host logic: Waiting for another player...",
+			"textWeight": "bold",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"HostServerLogic": {
+					"rectangle": "undefined"
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "text",
+			"id": "11",
+			"x": 476,
+			"y": 410,
+			"textAlignment": "center",
+			"textColor": "#ffffffff",
+			"textFontFamily": "cursive",
+			"textLineHeight": 1,
+			"textLineWidth": 776,
+			"textSize": 30,
+			"textText": "Client logic: You have joined ServerName!",
+			"textWeight": "bold",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"ClientLogic": {
+					"rectangle": "undefined"
+				}
+			},
+			"plugins": {}
+		},
+		{
+			"type": "text",
+			"id": "12",
+			"x": 34,
+			"y": 30,
+			"textColor": "#000000ff",
+			"textFontFamily": "Helvetica, Arial, sans-serif",
+			"textLineHeight": 1,
+			"textLineWidth": 512,
+			"textSize": 18,
+			"textText": "Press enter to chat",
+			"components": {
+				"arcadephysics": {
+					"gravity": false
+				},
+				"Chat": {}
+			},
+			"plugins": {}
+		}
+	],
+	"definitions": [],
+	"assets": []
+}

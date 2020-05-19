@@ -1,0 +1,41 @@
+{
+	"name": "Multiplayer Pong v2",
+	"width": 960,
+	"height": 540,
+	"levels": [
+		{
+			"id": 1,
+			"name": "Level 1",
+			"url": "levels/level-1.json"
+		},
+		{
+			"id": 2,
+			"name": "Level 2",
+			"url": "levels/level-2.json"
+		}
+	],
+	"plugins": [
+		"GamefrootText",
+		"Primitives",
+		"GamefrootPrimitives",
+		"RoomListText",
+		"UiStatusText",
+		"Bg1",
+		"Paddle",
+		"Paddle2",
+		"Ball",
+		"HostServerLogic",
+		"ClientLogic",
+		"Chat"
+	],
+	"assets": [
+		{
+			"id": 1,
+			"type": "textureatlas",
+			"imageUrl": "assets/spritesheet-1.png",
+			"jsonId": 2,
+			"jsonUrl": "assets/spritesheet-1.json"
+		}
+	],
+	"firstLevel": 1
+}
